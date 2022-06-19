@@ -53,9 +53,7 @@ public class DriverClass {
 			credserv.showCredentials(emp1, generatedEmail, generatedPassword);
 			break;
 		default:
-			generatedPassword=credserv.generatePassword();
-			generatedEmail=credserv.generateEmailAddress(firstName, lastName,null);
-			credserv.showCredentials(emp1, generatedEmail, generatedPassword);
+			System.out.println("Invalid department");
 			break;
 			
 		}

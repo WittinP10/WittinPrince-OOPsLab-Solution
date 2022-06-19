@@ -34,7 +34,9 @@ public class CredentialService  implements ICredentialService{
 	
 	public void showCredentials(Employee employee,String email,String generatePassword) {
 		
-		System.out.println("Dear "+employee.getFirstName()+ " your credentilas are as follows ");
+		
+		
+		System.out.println("Dear "+employee.getFirstName()+ " your generated credentials are as follows ");
 		System.out.println("Email--->"+email);
 		System.out.println("Password--->"+generatePassword);
 		
